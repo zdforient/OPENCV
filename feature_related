@@ -1,0 +1,19 @@
+//feature descriptors
+1. SURF
+gassusian filter to pixels around a point
+#pos
+good for rotation, blur cases
+#cons
+bad for perspective angle change and light change
+
+
+
+//feature detector
+1. FAST
+detect corner, count continuous points that all greater or lower than the pixel value of the location
+#pos
+fast, good for rotation, percpective/image angle change
+#cons
+bad for blur, noises, missing detections, wrong detections, detection rate low in some cases, need adjust parameters
+
+
